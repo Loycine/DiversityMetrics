@@ -1,4 +1,4 @@
-name: base
+name: div-metric
 channels:
   - pytorch
   - defaults

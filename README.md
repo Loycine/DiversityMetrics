@@ -7,7 +7,8 @@ To compute the CIDEr score, TF-IDF file is required. Now, the TF-IDF is obtained
 ## Evaluation ##
 ### prepare
 ```
-conda env export > div-metric.yaml
+conda env create -f div-metric.yaml
+conda activate div-metric
 ```
 
 ### run
