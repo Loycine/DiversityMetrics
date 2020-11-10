@@ -1,1 +1,1 @@
-
+textcaps-df.p 是textcaps train数据集上的TF-IDF file。

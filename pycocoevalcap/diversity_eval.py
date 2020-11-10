@@ -30,7 +30,7 @@ class SelfCider:
         self._dfMode = dfMode
         self._num = num
         if self._dfMode != 'corpus':
-            with open('./data/coco-train2014-df.p', 'r') as f:
+            with open('./data/textcaps-df.p', 'r') as f:
                 self._df_file = pickle.load(f)
 
     def evaluate(self):
@@ -275,7 +275,7 @@ class Accurate:
         self._dfMode = dfMode
         self._num = num
         if self._dfMode != 'corpus':
-            with open('./data/coco-train2014-df.p', 'r') as f:
+            with open('./data/textcaps-df.p', 'r') as f:
                 self._df_file = pickle.load(f)
 
     def evaluate(self):
